@@ -146,7 +146,7 @@ const DEFAULT_SECURITY_CONFIG = {
     enableFrontendDomainCheck: false,
 
     // 是否启用授权码验证
-    enableLicenseCheck: true,
+    enableLicenseCheck: false,
 };
 
 export const SECURITY_CONFIG = mergeDeep(DEFAULT_SECURITY_CONFIG, getConfig('SECURITY_CONFIG'));
